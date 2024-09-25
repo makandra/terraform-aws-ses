@@ -90,7 +90,3 @@ Whenever new commits are merged into the `main` branch we want a new release to 
 
 Terraform linter for finding possible errors, old syntax, unused declarations etc. Also it enforces best practices. See [tflint](https://github.com/terraform-linters/tflint).
 By default the root of the respository is scanned but if you have a repo with submodules (like e.g. [makandra/terraform-aws-modules](https://github.com/makandra/terraform-aws-modules)) you should add every submodule to the workflow matrix.
-
-# Recommended Repo configuration
-
-We recommend protecting the `main` branch and to allow new code pushes only via Pull Requests. This way it's ensured that all tests pass before a new release is pushed.
