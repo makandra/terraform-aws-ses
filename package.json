@@ -1,5 +1,5 @@
 {
-    "name": "<repo_name_here>",
+    "name": "terraform-aws-ses",
     "license": "MIT",
     "devDependencies": {
         "@semantic-release/github": "^8.0.7",
